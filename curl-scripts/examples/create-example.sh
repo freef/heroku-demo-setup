@@ -1,5 +1,4 @@
 #!/bin/bash
-
 curl "http://localhost:4741/examples" \
   --include \
   --request POST \
@@ -10,5 +9,4 @@ curl "http://localhost:4741/examples" \
       "text": "'"${TEXT}"'"
     }
   }'
-
 echo
